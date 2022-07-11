@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HI+J0YnUzNxSNq9oh5x5/F32n0WyGcCiYGCtyNkK1XRpD2QQ9w6Kr23LMKJREmt77sA982drtyoEJNWjBPZj3Q==",
+  "dgSpecHash": "PWu3oFGIuA/BWm2ivV+YlIVKG7Nrf1zpR7oeMb9R5SnrpBVZQstgI2RvNY/ukX0+JHQ9MxgH0GzwKw7yMuWR1g==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Task11\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beecrouse\\.nuget\\packages\\fluentvalidation\\11.0.3\\fluentvalidation.11.0.3.nupkg.sha512",
     "C:\\Users\\Beecrouse\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.3\\fluentvalidation.aspnetcore.11.0.3.nupkg.sha512",

@@ -503,11 +503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Task11\\src\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Domain\\Domain.csproj",
+      "projectPath": "D:\\Task11\\src\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Beecrouse\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Domain\\obj\\",
+      "outputPath": "D:\\Task11\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Beecrouse\\AppData\\Roaming\\NuGet\\NuGet.Config",

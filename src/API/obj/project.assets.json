@@ -2616,11 +2616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\API\\API.csproj",
+      "projectUniqueName": "D:\\Task11\\src\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\API\\API.csproj",
+      "projectPath": "D:\\Task11\\src\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Beecrouse\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\API\\obj\\",
+      "outputPath": "D:\\Task11\\src\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Beecrouse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2637,8 +2637,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Task11\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Task11\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

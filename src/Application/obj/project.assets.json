@@ -618,11 +618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Task11\\src\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Application\\Application.csproj",
+      "projectPath": "D:\\Task11\\src\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Beecrouse\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Application\\obj\\",
+      "outputPath": "D:\\Task11\\src\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Beecrouse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -639,8 +639,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Domain\\Domain.csproj"
+            "D:\\Task11\\src\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Task11\\src\\Domain\\Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HIlWFOvuXqfBkkCzNVB1A8WIF1TvXKvGFaOpiPD0IHHQ81LUbc9K6hnz9jwkhIApf7eZeijDdp3hTfX073mtlw==",
+  "dgSpecHash": "J+WswNsnidcD7G/5yk/mLEX5Lxf9obFSAseeImcoQCchIVTVLP9dmGeXNRQfHeLMlnmeJhFlimBrTZg6enbnhw==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\IdentityServer\\IdentityServer.csproj",
+  "projectFilePath": "D:\\Task11\\src\\IdentityServer\\IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beecrouse\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Beecrouse\\.nuget\\packages\\fluentvalidation\\11.0.3\\fluentvalidation.11.0.3.nupkg.sha512",

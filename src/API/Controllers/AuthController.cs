@@ -19,7 +19,7 @@ namespace API.Controllers
         /// <param name="email"></param>
         /// <param name="password"></param>
         /// <returns></returns>
-        /// <response code="200">Token is returned</response>
+        /// <response code="200">Token is returned AND SOMETHNG CHANGES</response>
         [HttpGet("[action]")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> Login(string email, string password)

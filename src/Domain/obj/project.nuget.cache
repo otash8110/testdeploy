@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sqh3eI6aELBGnSwwn3Ey0ojDCl0P6bCtrL4L9WdFRJJEibQ8qxNXmGgmes4iL39pbf+IdUTcKnYV4zjqgG2y/g==",
+  "dgSpecHash": "xezgZ6h+9kK6FVM6WhcxoHcrKZOsTV7in2+fY7R9pdyS/i27A2caJXnvexSW4+ICl24kMVsw5vvy52wy1sFP+w==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Exadel\\NET_Training\\Task11\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Task11\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beecrouse\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",
     "C:\\Users\\Beecrouse\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.6\\microsoft.aspnetcore.cryptography.keyderivation.6.0.6.nupkg.sha512",
