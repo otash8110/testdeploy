@@ -1,0 +1,36 @@
+services:
+  api:
+    build:
+      context: D:\Programming\Exadel\NET_Training\Task11
+      dockerfile: src/API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: api
+    ports:
+    - published: 5000
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Beecrouse\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Beecrouse\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  identity:
+    build:
+      context: D:\Programming\Exadel\NET_Training\Task11
+      dockerfile: src/IdentityServer/Dockerfile
+    image: is4
+    ports:
+    - published: 8080
+      target: 8080
+  sqldb:
+    container_name: sqldb
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Express
+      SA_PASSWORD: RequiredPass12332
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+    - published: 1440
+      target: 1433
+version: '3.4'

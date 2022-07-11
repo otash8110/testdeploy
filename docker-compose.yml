@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  sqldb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqldb
+    environment:
+        - SA_PASSWORD=RequiredPass12332
+        - ACCEPT_EULA=Y
+        - MSSQL_PID=Express
+    ports:
+        - 1440:1433 
+  identity:
+    image: is4
+    build:
+        context: .
+        dockerfile: src/IdentityServer/Dockerfile
+    ports:
+        - 3306:80 
+  api:
+    image: api
+    build:
+      context: .
+      dockerfile: src/API/Dockerfile
+    ports:
+        - 3307:443

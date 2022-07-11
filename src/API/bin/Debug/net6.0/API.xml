@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.AuthController.Login(System.String,System.String)">
+            <summary>
+            Get AccessToken
+            </summary>
+            <param name="email"></param>
+            <param name="password"></param>
+            <returns></returns>
+            <response code="200">Token is returned</response>
+        </member>
+        <member name="M:API.Controllers.TaskController.CreateTask(Application.DTO.ProjectTaskDto)">
+            <summary>
+            Create Task
+            </summary>
+            <param name="taskDto"></param>
+            <returns>Message of successfull creation</returns>
+            <remarks>
+            Sample request:
+            
+                POST /CreateTask
+                {
+                    "name": "init project",
+                    "description": "some description of the task",
+                    "status": 0, //0 - Not started, 1 - Completed
+                    "creatorId": 1,
+                    "performerId": 2
+                }
+                
+            </remarks>
+            <response code="201">Message of successfully created Task</response>
+            <response code="400">If error occurs during creation or validation</response>
+        </member>
+        <member name="M:API.Controllers.TaskController.GetTasks">
+            <summary>
+            Get all Tasks
+            </summary>
+            <returns>All tasks available</returns>
+            <response code="200">All Tasks in JSON are returned</response>
+            <response code="400">Probably there is no any task</response>
+        </member>
+        <member name="M:API.Controllers.TaskController.GetTaskById(System.Int32)">
+            <summary>
+            Get one Task by its ID
+            </summary>
+            <param name="id"></param>
+            <returns>Task by id</returns>
+            <response code="200">Task in JSON is returned</response>
+            <response code="400">Probably there is no task with such ID</response>
+        </member>
+        <member name="M:API.Controllers.TaskController.UpdateTask(Application.DTO.ProjectTaskDto)">
+            <summary>
+            Update Task
+            </summary>
+            <param name="taskDto"></param>
+            <returns>Message of successfull task update</returns>
+            <response code="200">Task is updated successfully</response>
+            <response code="400">Something wrong happend during update</response>
+        </member>
+    </members>
+</doc>
