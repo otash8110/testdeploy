@@ -22,12 +22,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Create image
+      run: docker build -t apiproject -f src/API/Dockerfile .
+
     # Build Docker image
     - name: Docker build
-      run: docker login --username=otash_baxadirov@mail.ru --password=$HEROKU_API_KEY registry.heroku.com
+      run: |
+        docker login --username=otash_baxadirov@mail.ru --password=$HEROKU_API_KEY registry.heroku.com
 
     # Push the Docker image to Heroku Container Registry
     - name: Publish
       run: |
-        heroku container:push web -a $APP_NAME
+        docker tag apiproject registry.heroku.com/$APP_NAME/web
+        docker push registry.heroku.com/$APP_NAME/web
         heroku container:release web -a $APP_NAME
